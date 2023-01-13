@@ -10,6 +10,8 @@ body{
   gap: 2rem;
   background-color: #232323;
   margin-top: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 /* what the ducking duck is happening */
 .card{
