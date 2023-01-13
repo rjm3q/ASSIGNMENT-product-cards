@@ -3,21 +3,42 @@ body{
 }
 
 .container{
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   flex-basis: content;
-  justify-self: auto;
-  margin: 15px ;
+  justify-content: space-around;
+  gap: 2rem;
   background-color: #232323;
 }
 .card{
   display: flex;
   align-content: space-between;
+  flex-basis: 30%;
 }
 .card-title{
   display: flex;
   justify-content: center;
   align-content: center;
   border: 1px solid lightblue;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 12px;
 }
 
 .card-img-top{
@@ -34,13 +55,45 @@ body{
 }
 
 .spec-list{
-
+  text-align: left;
+  font-weight: bold;
 }
 
 .y2k{
-
+text-align: left;
+text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 12px;
 }
 
 .price-list{
-  
+  text-align: left;
+  font-weight: bold;
+}
+
+.list-group-item{
+  text-align: left;
+  font-weight: bold;
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
 }
