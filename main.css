@@ -9,7 +9,9 @@ body{
   justify-content: space-around;
   gap: 2rem;
   background-color: #232323;
+  margin-top: 10%;
 }
+
 .card{
   display: flex;
   align-content: space-between;
