@@ -1,0 +1,46 @@
+body{
+   background-image: url(https://s.yimg.com/ny/api/res/1.2/i_TI3tCy52E0BT_9Ru6PjA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTYzOQ--/https://s.yimg.com/uu/api/res/1.2/Zec6O5KO26QXp_CGq.Vbrw--~B/aD05NjI7dz05NjQ7YXBwaWQ9eXRhY2h5b24-/http://36.media.tumblr.com/af8bbb5a3b40465281de22cf6ec1aae8/tumblr_inline_nz750u2COJ1ty84t8_1280.png)
+}
+
+.container{
+  display: block;
+  flex-basis: content;
+  justify-self: auto;
+  margin: 15px ;
+  background-color: #232323;
+}
+.card{
+  display: flex;
+  align-content: space-between;
+}
+.card-title{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid lightblue;
+}
+
+.card-img-top{
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.availBox{
+  display: flex;
+  background-color: grey;
+  color: goldenrod;
+}
+
+.spec-list{
+
+}
+
+.y2k{
+
+}
+
+.price-list{
+  
+}
